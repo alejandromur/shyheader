@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>  <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="es">  <![endif]-->
+<!--[if IE 7]>     <html class="no-js lt-ie9 lt-ie8" lang="es">         <![endif]-->
+<!--[if IE 8]>     <html class="no-js lt-ie9" lang="es">                <![endif]-->
+<!--[if IE 9]>     <html class="no-js ie9" lang="es">                   <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="es"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>|+++| Shyheader</title>
+
+        <meta name="copyright" content="&copy; 2016 Mamutlove">
+        <meta name="description" content="Shyheader. A simple jQuery Plugin to show the header when users scroll up. No pretentions, just for fun">
+        <meta name="keywords" content="jQuery, plugin, Shy Header">
+        <meta name="robots" content="follow, all">
+        <meta http-equiv="author" content="@alejandro_mur">
+
+        <meta property="twitter:card" content="shy header. A simple jQuery Plugin">
+        <meta property="twitter:url" content="http://www.mamutlove.es/projects/shyheader/">
+        <meta property="twitter:title" content="Shy Header. A simple jQuery Plugin">
+        <meta property="twitter:description" content="Shy Header. A simple jQuery Plugin to show the header when users scroll up.">
+        <meta property="twitter:image" content="http://www.mamutlove.es/img/logo-mamutlove.jpg" />
+        <meta property="twitter:site" content="@Mamutlove">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <header class="header shy-header">
+            <h1>SHY HEADER</h1>
+        </header>
+        <main class="content shy-container cf">
+            <aside class="aside">
+                <h3>Shy Header</h3>
+                <p>This jQuery Plugin shows/hides the header of the page due to its own shy nature.</p>
+                <p>Once initialized, the header will hide when users scroll the page down more than its height. However, the header remains watching the page so when users scroll the page up its being showed.</p>
+                <p>Please, take this demo as it is, a little demo where I pretend to show the power of this plugin, but consider your own target before copy/paste. It is possible that you need to reset some properties contained in the CSS file.</p>
+            </aside>
+            <section class="container">
+                <h2>República Dominicana</h2>
+                <img src="http://www.mamutlove.es/img/republica-dominicana-logo.gif" alt="República Dominicana" width="920" height="350">
+                <h2>Stop Global Warming</h2>
+                <img src="http://www.mamutlove.es/img/stopGlobalWarming.jpg" alt="Stop Global Warming" width="920" height="350">
+                <h2>Smint</h2>
+                <img src="http://www.mamutlove.es/img/smint-grafica.gif" alt="Smint" width="920" height="350">
+                <h2>Spontex</h2>
+                <img src="http://www.mamutlove.es/img/spontex-grafica.gif" alt="Spontex" width="920" height="350">
+                <h2>Tomtom</h2>
+                <img src="http://www.mamutlove.es/img/tomtom-grafica.gif" alt="Tomtom" width="920" height="350">
+                <h2>Mamutlove</h2>
+                <img src="http://www.mamutlove.es/img/mamut-love-logo.jpg" alt="Mamut Love says Stop Global Warming" width="920" height="350">
+            </section>
+        </main>
+        <footer class="footer">
+            <h5>WHATEVER FOOTER - All the images use in this page are owned by Mamut Love - <a href="mailto:hola@mamutlove.es">hola@mamutlove.es</a></h5>
+        </footer>
+
+        <!-- jQuery -->
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
+        <!-- Shy Header Plugin -->
+        <script src="js/jquery.shyheader.min.js"></script>
+
+        <!-- Initialize Shy Header -->
+        <script>
+            $(function(){
+                $(".shy-header").shyheader({
+                    classname : "is-watching",
+                    container : 'shy-container'
+                });
+            });
+        </script>
+    </body>
+</html>
