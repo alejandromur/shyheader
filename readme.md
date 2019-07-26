@@ -1,7 +1,7 @@
 <h1>Shy Header</h1>
 <p>A simple, light-weight and easy-to-use jQuery Plugin that shows/hides the header of the page when users scroll the page down more than its height. However, the header remains watching the page so when users scroll the page up its being showed.</p>
-<p><a href="http://www.mamutlove.es/projects/shyheader/" title="Demo" target="_blank">Demo</a></p>
-<p>Please, take this <a href="http://www.mamutlove.es/projects/shyheader/" title="Demo" target="_blank">demo</a> as it is, a little demo where I pretend to show the power of this plugin, but consider your own target before copy/paste the code. It is possible that you need to reset some properties contained in the CSS file.</p>
+<p><a href="https://www.mamutlove.com/projects/shyheader/" title="Demo" target="_blank">Demo</a></p>
+<p>Please, take this <a href="https://www.mamutlove.com/projects/shyheader/" title="Demo" target="_blank">demo</a> as it is, a little demo where I pretend to show the power of this plugin, but consider your own target before copy/paste the code. It is possible that you need to reset some properties contained in the CSS file.</p>
 
 <h2>Customizable</h2>
 <p>• You could change the name of the class that is going to be added to the header ('is-watching' by default). Remember then to apply your styles to this new class.</p>
